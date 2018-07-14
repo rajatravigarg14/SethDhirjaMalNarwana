@@ -1,0 +1,171 @@
+/*common css code for all pages*/
+.footer-style{
+    background-color: #343a40;
+    color:white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.row{
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+h1,h2,h3{
+    font-family: 'Kaushan Script', cursive;
+    color:goldenrod
+}
+.nav-link{
+    color:#fff!important;
+    font-size: 1.2rem;
+    padding-left: 2.5rem!important;
+}
+
+.contact-primary-button{
+    color:#fff;
+    background-color: transparent;
+    border:2px solid goldenrod;
+    margin-left: 20px;
+}
+.contact-primary-button:hover {
+    background: goldenrod;   
+    border:2px solid goldenrod;
+}
+
+p{
+    font-size: 18px;
+}
+
+/* main index page css starts here*/
+.welcome-page{
+    background: url("indexpics/welcomebg.jpg");
+    background-position: auto;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: justify;
+    color: white;
+    padding-bottom: 2rem;
+    padding-top: 7rem;
+}
+
+.welcome-desc{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.welcome-notice{
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.notice-board{
+    border: 5px ridge goldenrod;
+    height: 15rem;
+    width: 100%;
+    background: url("indexpics/noticeboard.jpg")
+}
+
+.about-row{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.about-row img{
+    border: 0.3rem goldenrod ridge;
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.index-divider img{
+    width: 100%;
+}
+
+/*Monuments section*/
+.monument-section{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.monument-row{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.monument-row img{
+    height: 28rem;
+    margin-top: 6rem;
+    border:5px ridge goldenrod;
+}
+
+/*Gallery Section*/
+.gallery-section{
+    background: url("gallerypics/gallerybg.jpg");
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: white;
+}
+
+.gallery-row{
+    margin-top: 2rem;
+}
+
+.gallery-row img{
+    width: 100%;
+    border: .2rem white solid;
+    height: 160px;
+}
+
+/*Contacts Section*/
+.contacts-section{
+    background: url("contactspics/contactsbg.jpg");
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    min-height: 37rem;
+}
+
+.searchbar{
+    width: 80%;
+    height: 3rem;
+    border: 2px goldenrod solid;
+    border-radius: 1rem;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.searchbar:focus{
+    outline: none;
+}
+
+.contacts-table{
+    border-top: 2px goldenrod solid;
+    font-weight: bold;
+}
+
+.contacts-table tr{
+    border-bottom: 2px goldenrod solid;
+}
+.contacts-table tr:hover {
+    background-color: #343a40;
+    color: white;
+}
+
+/*Contact Us Section*/
+.contact-section{
+    background: url("contactuspics/contactus.jpg");
+    background-size: cover;
+    background-position: auto;
+    background-attachment: fixed;
+    padding-top: 7rem;
+    padding-bottom: 5rem;       
+}
