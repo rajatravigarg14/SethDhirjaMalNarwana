@@ -91,14 +91,42 @@ p{
     padding-left: 0rem;
     padding-right: 0rem;
 }
-.monument-row{
+
+.monument-description{
     padding-left: 2rem;
     padding-right: 2rem;
+    text-align: justify;
 }
+
 .monument-row img{
-    height: 28rem;
+    height: 25rem;
     margin-top: 6rem;
     border:5px ridge goldenrod;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%239e7100' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%239e7100' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li{
+    background-color: goldenrod;
+}
+
+.carousel-caption{
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0px;
+    right: 0px;
+}
+
+.carousel-caption h2{
+    font-family: 'Kaushan Script', cursive;
+    color: #cc9306;
+    margin-bottom: 1rem;
 }
 
 /*Gallery Section*/
