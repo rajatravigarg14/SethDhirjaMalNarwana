@@ -34,7 +34,7 @@ h1,h2,h3{
 }
 
 p{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* main index page css starts here*/
@@ -140,6 +140,10 @@ p{
     color: white;
 }
 
+.gallery-text{
+    text-align:justify;
+}
+
 .gallery-row{
     margin-top: 2rem;
 }
@@ -148,6 +152,11 @@ p{
     width: 100%;
     border: .2rem white solid;
     height: 160px;
+}
+
+.lb-container{
+    height: 400px;
+    width: 400px;
 }
 
 /*Contacts Section*/
@@ -195,5 +204,11 @@ p{
     background-position: auto;
     background-attachment: fixed;
     padding-top: 7rem;
-    padding-bottom: 5rem;       
+    padding-bottom: 5rem;
+}
+
+/*Pedigree section starts here*/
+.pedigree-section{
+    padding-top: 7rem;
+    padding-bottom: 1rem;
 }

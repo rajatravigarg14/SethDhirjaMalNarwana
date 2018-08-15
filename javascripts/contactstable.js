@@ -33,11 +33,11 @@ var contactslist = {
             "contact": "8950405195"
         },
         {
-            "name": "Puneet Garg S/O Virender Kumar Garg ",
+            "name": "Punit Garg S/O Virender Kumar Garg ",
             "contact": "9717194139"
         },
         {
-            "name": "Sumeet Garg S/O Virender Kumar Garg",
+            "name": "Sumit Garg S/O Virender Kumar Garg",
             "contact": "7838804761"
         },
         {
