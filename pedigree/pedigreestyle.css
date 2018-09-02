@@ -1,17 +1,11 @@
-/*margin top*/
+/*main body style*/
 body{
     font-size: 1rem;
     background: url("pedigreeimage.jpg") no-repeat center center fixed;;
     background-size: cover;
 }
 
-.pedigree-navigation li {
-    margin-top: 4rem;
-    border: 3px ridge goldenrod;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
+/*pedigree chart css*/
 div.panel:first-child {
     margin-top:0px;
 }
@@ -75,4 +69,25 @@ div.treeview ul:first-child:before {
     font-weight: bolder;
     font-size: 1.3rem;
     margin-bottom: 1rem;
+}
+
+/*pedigree page navigation css*/
+.pedigree-nav .col-md-1{
+    padding: 0px;
+    background-color: white;
+    border: 3px ridge goldenrod;
+}
+
+.pedigree-nav a{
+    border: none;
+    margin: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pedigree-nav{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
