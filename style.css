@@ -85,13 +85,13 @@ p{
 }
 
 /* card info*/
-.card-flip > div {
+.index-card-flip > div {
     backface-visibility: hidden;
     transition: transform 300ms;
     transition-timing-function: linear;
 }
   
-.card-front {
+.index-card-front {
     transform: rotateY(0deg);
     border: 3px ridge goldenrod;
     border-radius: 50%;
@@ -99,7 +99,7 @@ p{
     color: white;
 }
 
-.card-back {
+.index-card-back {
     transform: rotateY(180deg);
     position: absolute;
     border: 3px ridge goldenrod;
@@ -109,15 +109,15 @@ p{
     width: 15rem;
 }
 
-.card-flip:hover .card-front {
+.index-card-flip:hover .index-card-front {
     transform: rotateY(-180deg);
 }
     
-.card-flip:hover .card-back {
+.index-card-flip:hover .index-card-back {
     transform: rotateY(0deg);
 }
 
-.card-flip{
+.index-card-flip{
     padding: 0px;
     margin-bottom: 1rem;
     background-color: transparent;
