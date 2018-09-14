@@ -1,0 +1,16 @@
+.frame-section{
+    margin-top: 4.5rem;
+}
+
+.frame-section iframe{
+    width: 100%;
+    height: 78vh;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}

@@ -73,7 +73,7 @@ p{
     font-size: 1.2rem;
 }
 
-.about-row img{
+.ancestor-pic img{
     border: 0.3rem goldenrod ridge;
     border-radius: 50%;
     max-width: 100%;
@@ -84,59 +84,41 @@ p{
     margin-right: auto;
 }
 
-/* card info*/
-.index-card-flip > div {
-    backface-visibility: hidden;
-    transition: transform 300ms;
-    transition-timing-function: linear;
-}
-  
-.index-card-front {
-    transform: rotateY(0deg);
-    border: 3px ridge goldenrod;
-    border-radius: 50%;
-    background-color: black;
-    color: white;
-}
-
-.index-card-back {
-    transform: rotateY(180deg);
-    position: absolute;
-    border: 3px ridge goldenrod;
-    border-radius: 50%;
-    background-color: black;
-    color: white;
-    width: 15rem;
-}
-
-.index-card-flip:hover .index-card-front {
-    transform: rotateY(-180deg);
-}
-    
-.index-card-flip:hover .index-card-back {
-    transform: rotateY(0deg);
-}
-
-.index-card-flip{
-    padding: 0px;
-    margin-bottom: 1rem;
-    background-color: transparent;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15rem;
-    height: 15rem;
-    text-align: center;
-    line-height: 15rem;
-    font-size: 24px;
-}
-
 .about-row a{
     text-decoration: none;
 }
 
 .index-divider img{
     width: 100%;
+}
+
+.ad-card{
+    display: table;
+    background-color: goldenrod;
+    border: 2px solid #251c1f;
+    border-radius: 10px;
+    height: 15rem;
+    width: 100%;
+    font-weight: 900;
+    text-align: center;
+    color: #251c1f;
+}
+
+.ad-card span{
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.ad-icon{
+    width: 60px;
+    height: 60px;
+}
+
+.ad-goto{
+    width: 35px;
+    height: 35px;
 }
 
 /*Monuments section*/
