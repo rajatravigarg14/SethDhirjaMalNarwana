@@ -108,7 +108,7 @@ p{
     width: 100%;
 }
 
-.ad-card{
+.business-card{
     display: table;
     background-color: goldenrod;
     border: 2px solid #251c1f;
@@ -120,23 +120,23 @@ p{
     color: #251c1f;
 }
 
-.ad-card:hover{
+.business-card:hover{
     border: 2px solid white;
 }
 
-.ad-card span{
+.business-card span{
     display: table-cell;
     vertical-align: middle;
     padding-right: 15px;
     padding-left: 15px;
 }
 
-.ad-icon{
+.business-icon{
     width: 60px;
     height: 60px;
 }
 
-.ad-goto{
+.business-goto{
     width: 35px;
     height: 35px;
 }
