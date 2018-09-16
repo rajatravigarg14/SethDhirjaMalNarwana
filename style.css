@@ -57,9 +57,8 @@ p{
 }
 
 .welcome-notice{
-    padding-top: 2.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .notice-card{
     width: 100%;
@@ -72,13 +71,17 @@ p{
 }
 
 .notice-text{
-    height: 14rem;
+    height: 10rem;
     display: table;
 }
 
 .notice-message{
     display: table-cell;
     vertical-align: middle;
+}
+
+.notice-footer{
+    font-size: 13px
 }
 
 .about-row{
