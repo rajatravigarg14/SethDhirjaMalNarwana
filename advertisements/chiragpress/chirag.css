@@ -21,6 +21,42 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* middle item section and press photo*/
+.card-flip {
+    display: table;
+    width: 100%;
+    height: 110px;
+    padding: 0 1;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 3px solid white;
+    background-color: goldenrod;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+    text-align: center;
+    color: #2b0707;
+}
+  
+.card-front {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.item-section{
+    background: url("chiragwallpapermiddle.jpg");
+    background-position: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.press-photo{
+    border-radius: 10px;
+    border: 3px solid goldenrod;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* address info*/
 .address-info{
     text-align: center;
@@ -40,64 +76,5 @@
 .profileimage{
     min-height: 15rem;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-/* card info*/
-.card-flip > div {
-    backface-visibility: hidden;
-    transition: transform 300ms;
-    transition-timing-function: linear;
-    width: 100%;
-    height: 110px;
-    text-align: center;
-    vertical-align: middle;
-}
-  
-.card-front {
-    transform: rotateY(0deg);
-    border-radius: 10px;
-    border: 1px solid goldenrod;
-    font-size: 20px;
-    padding-top: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-  
-.card-back {
-    transform: rotateY(180deg);
-    position: absolute;
-    border-radius: 10px;
-    border: 1px solid goldenrod;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.card-flip:hover .card-front {
-    transform: rotateY(-180deg);
-}
-    
-.card-flip:hover .card-back {
-    transform: rotateY(0deg);
-}
-
-.card-flip{
-    padding: 0px;
-    margin-bottom: 1rem;
-    background-color: transparent;
-    border-radius: 10px;
-}
-
-.item-section{
-    background: url("chiragwallpapermiddle.jpg");
-    background-position: auto;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-}
-
-.press-photo{
-    border-radius: 10px;
-    border: 3px solid goldenrod;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

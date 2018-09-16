@@ -61,11 +61,24 @@ p{
     padding-left: 2rem;
     padding-right: 2rem;
 }
-.notice-board{
-    border: 5px ridge goldenrod;
-    height: 15rem;
+.notice-card{
     width: 100%;
-    background: url("indexpics/noticeboard.jpg")
+    background-color: goldenrod;
+    border: 2px solid #251c1f;
+    border-radius: 10px;
+    color: #251c1f;
+    font-weight: 900;
+    text-align: center;
+}
+
+.notice-text{
+    height: 14rem;
+    display: table;
+}
+
+.notice-message{
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .about-row{
@@ -102,6 +115,10 @@ p{
     font-weight: 900;
     text-align: center;
     color: #251c1f;
+}
+
+.ad-card:hover{
+    border: 2px solid white;
 }
 
 .ad-card span{
