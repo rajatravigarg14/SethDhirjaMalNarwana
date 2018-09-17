@@ -22,26 +22,6 @@
 }
 
 /* middle item section and press photo*/
-.card-flip {
-    display: table;
-    width: 100%;
-    height: 110px;
-    padding: 0 1;
-    margin-bottom: 1rem;
-    border-radius: 10px;
-    border: 3px solid white;
-    background-color: goldenrod;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-size: 20px;
-    text-align: center;
-    color: #2b0707;
-}
-  
-.card-front {
-    display: table-cell;
-    vertical-align: middle;
-}
-
 .item-section{
     background: url("chiragwallpapermiddle.jpg");
     background-position: auto;
@@ -51,10 +31,32 @@
     padding-bottom: 2rem;
 }
 
+.item-card {
+    display: table;
+    width: 100%;
+    height: 110px;
+    margin-bottom: 1rem;    
+    border-radius: 10px;
+    border: 3px solid white;
+    background-color: goldenrod;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 18px;
+    text-align: center;
+    color: #2b0707;
+}
+  
+.item-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .press-photo{
     border-radius: 10px;
     border: 3px solid goldenrod;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 486px;
 }
 
 /* address info*/
@@ -63,11 +65,8 @@
     margin-top: 2rem;
 }
 
-.address-info div{
-    min-height: 9rem;
-}
-
 .utiimage{
+    margin-top: 0.5rem;
     max-height: 6rem;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -75,6 +74,11 @@
 
 .profileimage{
     min-height: 15rem;
+    height: 100%;
+    max-height: 20rem;
+    width: 100%;
     border-radius: 5px;
+    border: 1px solid goldenrod;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 1rem;
 }
