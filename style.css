@@ -19,7 +19,8 @@ h1,h2,h3{
 .nav-link{
     color:#fff!important;
     font-size: 1.2rem;
-    padding-left: 2.5rem!important;
+    padding-left: 2rem!important;
+    margin-right: 0px !important;
 }
 
 .contact-primary-button{
@@ -35,6 +36,12 @@ h1,h2,h3{
 
 p{
     font-size: 20px;
+}
+
+.gsc-control-cse{
+    width: 300px !important;
+    padding: 0px !important;
+    border: 0px !important;
 }
 
 /* main index page css starts here*/
