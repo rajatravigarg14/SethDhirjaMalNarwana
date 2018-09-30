@@ -1,16 +1,88 @@
-.frame-section{
-    margin-top: 4.5rem;
+/* main design of page*/
+.chirag-section{
+    background: url("newindiawallpaper.jpg");
+    background-position: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+    color: white;
+    font-family: 'Righteous', cursive;
+    line-height: 1.2;
 }
 
-.frame-section iframe{
+.school-name{
+    padding-bottom: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* middle item section and press photo*/
+.item-section{
+    background: url("newindiawallpapermiddle.jpg");
+    background-position: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.school-card{
+    color: #251c1f;
+    background-color: goldenrod;
+    border: 3px solid white;
+    border-radius: 20;
+    text-align: center;
     width: 100%;
-    height: 78vh;
+    font-weight: 900;
+    padding: 10px;
+    height: 13rem;
+    margin-bottom: 1rem;
 }
 
-.container-fluid{
-    padding: 0;
+.school-pic{
+    border: 3px solid goldenrod;
+    border-radius: 20;
+    text-align: center;
+    width: 100%;
+    font-weight: 900;
+    height: 18rem;
+    margin-bottom: 1rem;
 }
 
-body{
-    overflow: hidden;
+.card-text{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 2rem;
+}
+
+.card-desc{
+    display: table;
+}
+
+/* address info*/
+.address-info{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.profileimage{
+    min-height: 15rem;
+    height: 100%;
+    max-height: 20rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid goldenrod;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 1rem;
+}
+.profile-moto{
+    color: goldenrod;
+    font-size: 1.5rem;
+    font-style: italic;
 }

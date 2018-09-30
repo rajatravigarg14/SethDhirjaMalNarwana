@@ -385,7 +385,7 @@ var contactslist = {
             "contact": "9958856282"
         },
         {
-            "name": "Dr Rajesg Garg S/O Ram Kumar Garg",
+            "name": "Dr Rajesh Garg S/O Ram Kumar Garg",
             "contact": "9996130222"
         },
         {
