@@ -1,5 +1,5 @@
 /* main design of page*/
-.chirag-section{
+.newindia-section{
     background: url("newindiawallpaper.jpg");
     background-position: auto;
     background-attachment: fixed;
@@ -41,7 +41,7 @@
     width: 100%;
     font-weight: 900;
     padding: 10px;
-    height: 13rem;
+    height: 14rem;
     margin-bottom: 1rem;
 }
 
