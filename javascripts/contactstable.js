@@ -113,7 +113,7 @@ var contactslist = {
             "contact": "9416558977"
         },
         {
-            "name": "Naresh Garg S/O Dalip Chand",
+            "name": "Naresh Garg S/O Inderjit",
             "contact": "9416463713"
         },
         {
@@ -262,7 +262,7 @@ var contactslist = {
         },
         {
             "name": "Jivtesh Gupta S/O Kusum Gupta",
-            "contact": ""
+            "contact": "9815362121"
         },
         {
             "name": "Ishwar Parkash Gupta",
@@ -523,6 +523,27 @@ var contactslist = {
         {
             "name": "Ramesh Garg",
             "contact": "9654855671"
+        },
+        {
+            "name": "Mohinder Garg S/O Naranjan Lal",
+            "contact": "8901313096"
+        },
+        {
+            "name": "Himanshu S/O Mohinder Garg",
+            "contact": "9416697419"
+        },
+        {
+            "name": "Akshat Garg S/O Krishan Kumar",
+            "contact": "9996894624"
+        },
+        {
+            "name": "Jiwan Kumar S/O Desh Raj",
+            "contact": "9899777917"
+        }
+        ,
+        {
+            "name": "Jiwan Kumar S/O Desh Raj",
+            "contact": "9416178471"
         }
     ]
 }
