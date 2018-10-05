@@ -539,11 +539,22 @@ var contactslist = {
         {
             "name": "Jiwan Kumar S/O Desh Raj",
             "contact": "9899777917"
-        }
-        ,
+        },
         {
             "name": "Jiwan Kumar S/O Desh Raj",
             "contact": "9416178471"
+        },
+        {
+            "name": "Gaurav S/O Amar Singh",
+            "contact": "9416775362"
+        },
+        {
+            "name": "Rohit S/O Amar Singh",
+            "contact": "9215341589"
+        },
+        {
+            "name": "Sudhanshu S/O Mohinder",
+            "contact": "9215341589"
         }
     ]
 }
