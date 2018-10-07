@@ -151,4 +151,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>http://dhirjapariwarnarwana.com/celebrations/2018/party.html</loc>
+    <lastmod>2018-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
