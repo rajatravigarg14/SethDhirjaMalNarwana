@@ -563,6 +563,22 @@ var contactslist = {
         {
             "name": "Sourabh S/O Rakesh Garg",
             "contact": "8901149251"
+        },
+        {
+            "name": "Vijay S/O Garish Pal",
+            "contact": "9215641589"
+        },
+        {
+            "name": "Anil S/O Krishan Gopal",
+            "contact": "9416176138"
+        },
+        {
+            "name": "Vijay Kumar S/O Ved Prakash",
+            "contact": "9996927888"
+        },
+        {
+            "name": "Ashish S/O Vijay Kumar",
+            "contact": "9996927888"
         }
     ]
 }
