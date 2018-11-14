@@ -397,8 +397,8 @@ var contactslist = {
             "contact": "9416831752"
         },
         {
-            "name": "Surender Aggarwal S/O Balbir Garg",
-            "contact": "9253042336"
+            "name": "Surender Garg S/O Balbir Garg",
+            "contact": "9896495478"
         },
         {
             "name": "Sushila Gupta",
