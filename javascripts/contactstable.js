@@ -457,7 +457,7 @@ var contactslist = {
             "contact": "9310727223"
         },
         {
-            "name": "Adarsh Kumar Gupta S/O Suresh Gupta",
+            "name": "Adarsh Kumar Gupta S/O Sat Prakash Aggarwal",
             "contact": "9312375100"
         },
         {
