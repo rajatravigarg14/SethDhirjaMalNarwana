@@ -1,0 +1,30 @@
+.newborns-section{
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.baby-card{
+    height: 100%;
+    width: 100%;
+    background-color: #fff3cd;
+    border: 2px solid #886101;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    color: #886101;
+    
+}
+
+.baby-card img{
+    border-radius: 10px;
+    border-bottom: 2px solid #251c1f;
+    height: 11rem;
+}
+
+.col-md-3{
+    margin-bottom: 1rem;
+}
+
+.divider img{
+    width: 100%;
+}
