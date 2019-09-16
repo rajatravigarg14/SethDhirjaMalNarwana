@@ -417,6 +417,10 @@ var contactslist = {
             "contact": "9541933433"
         },
         {
+            "name": "Sunil Gupta S/O Om Parkash",
+            "contact": "9416090307"
+        },
+        {
             "name": "Mukesh Gupta S/O Ishwar Prakash Gupta",
             "contact": ""
         },
@@ -584,16 +588,16 @@ var contactslist = {
 }
 
 //Comparer Function  
-function GetSortOrder(prop) {  
-    return function(a, b) {  
-        if (a[prop] > b[prop]) {  
-            return 1;  
-        } else if (a[prop] < b[prop]) {  
-            return -1;  
-        }  
-        return 0;  
-    }  
-}  
+function GetSortOrder(prop) {
+    return function (a, b) {
+        if (a[prop] > b[prop]) {
+            return 1;
+        } else if (a[prop] < b[prop]) {
+            return -1;
+        }
+        return 0;
+    }
+}
 
 contactslist.contacts.sort(GetSortOrder("name"));
 
@@ -602,7 +606,7 @@ var table = document.getElementById("contactstable");
 
 for (var i = 0; i < contactslist.contacts.length; i++) {
     // Create an empty <tr> element and add it to the 1st position of the table:
-    var row = table.insertRow(i+1);
+    var row = table.insertRow(i + 1);
 
     // Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
     var cell1 = row.insertCell(0);
@@ -622,16 +626,16 @@ function searchFunction() {
     input = document.getElementById("searchInput");
     filter = input.value.toUpperCase();
     tr = table.getElementsByTagName("tr");
-  
+
     // Loop through all table rows, and hide those who don't match the search query
     for (i = 1; i < tr.length; i++) {
-      td = tr[i].getElementsByTagName("td")[1];
-      if (td) {
-        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-          tr[i].style.display = "";
-        } else {
-          tr[i].style.display = "none";
+        td = tr[i].getElementsByTagName("td")[1];
+        if (td) {
+            if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
         }
-      } 
     }
-  }
+}
