@@ -297,7 +297,11 @@ var contactslist = {
             "contact": "9818151565"
         },
         {
-            "name": "Sudarshan Kumar S/O Puranmal Garg",
+            "name": "Sudershan Kumar S/O Puran Chand Garg",
+            "contact": "8800116796"
+        },
+        {
+            "name": "CA Rohit Garg S/O Sudershan Kumar Garg",
             "contact": "8800116796"
         },
         {

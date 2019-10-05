@@ -67,6 +67,10 @@ p{
     text-align: center;
 }
 
+.notice-card img{
+    max-height: 300px;
+}
+
 .notice-text{
     display: table;
 }
@@ -200,6 +204,7 @@ p{
     padding-left: 1rem;
     color: white;
 }
+
 
 .gallery-text{
     text-align:justify;
