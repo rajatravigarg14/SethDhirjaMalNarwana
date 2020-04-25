@@ -26,7 +26,7 @@ var contactslist = {
         },
         {
             "name": "Gourav Ravi Garg S/O Ravi Bhushan",
-            "contact": "8950542204"
+            "contact": "7082583772"
         },
         {
             "name": "Rajat Ravi Garg S/O Ravi Bhushan",
@@ -97,7 +97,7 @@ var contactslist = {
             "contact": "9416555929"
         },
         {
-            "name": "Narender S/O Ranbeer Garg",
+            "name": "Narender S/O Ranbir Chand",
             "contact": "9416226678"
         },
         {

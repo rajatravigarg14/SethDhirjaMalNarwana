@@ -150,12 +150,6 @@ p{
 }
 
 /*Monuments section*/
-.monument-section{
-    padding-top: 7rem;
-    padding-bottom: 2rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-}
 
 .monument-description{
     padding-left: 2rem;
@@ -271,4 +265,37 @@ p{
     background-attachment: fixed;
     padding-top: 7rem;
     padding-bottom: 5rem;
+}
+.main-heading-section{
+    padding-top: 6.5rem;
+    padding-bottom: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+/*Achievements Section*/
+.achievements-row{
+    margin-bottom: 1rem;
+}
+
+.achievements-text{
+    border-radius: 10px;
+    border: 2px solid goldenrod;
+    height: 100%;
+    background-color: #fff3cd;
+    color: #896404;
+    font: bolder;
+    text-align: center;
+    padding: 0 0.5rem;
+}
+
+.achievements-card{
+    width: 100%;
+    border: 2px solid #886101;
+    border-radius: 10px;
+}
+
+.achievements-card img{
+    border-radius: 7px;
+    height: 15rem;
 }
