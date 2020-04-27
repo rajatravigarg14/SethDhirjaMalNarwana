@@ -1,0 +1,10 @@
+h1,h2,h3{
+    font-family: 'Kaushan Script', cursive;
+    color:goldenrod
+}
+
+.pariwar-heading{
+    background-color: #343a40;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
