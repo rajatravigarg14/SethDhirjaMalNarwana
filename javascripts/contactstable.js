@@ -169,10 +169,6 @@ var contactslist = {
             "contact": "9417054558"
         },
         {
-            "name": "Vikas Pal Gupta S/O Mahinder Pal",
-            "contact": ""
-        },
-        {
             "name": "Shravan Gupta S/O Om Parkash Gupta",
             "contact": "9514102972"
         },
@@ -225,10 +221,6 @@ var contactslist = {
             "contact": "9417656222"
         },
         {
-            "name": "Pawan Gupta S/O Beer Bhan",
-            "contact": ""
-        },
-        {
             "name": "Anil Gupta /S/O Jagdish Rai",
             "contact": "9216713854"
         },
@@ -239,10 +231,6 @@ var contactslist = {
         {
             "name": "Ravinder Garg S/O Gyan Chand",
             "contact": "9466847255"
-        },
-        {
-            "name": "Ashok Gupta S/O Girdhari Lal",
-            "contact": ""
         },
         {
             "name": "Kapeesh Gupta S/O Bharat Bhushan Gupta",
@@ -377,10 +365,6 @@ var contactslist = {
             "contact": ""
         },
         {
-            "name": "Lal Chand",
-            "contact": ""
-        },
-        {
             "name": "Parbodh Kumar Gupta S/O Lal Chand Patwani",
             "contact": "8950891844"
         },
@@ -411,10 +395,6 @@ var contactslist = {
         {
             "name": "Balraj Bedi",
             "contact": "9467685613"
-        },
-        {
-            "name": "Tirlok Chand Gupta",
-            "contact": ""
         },
         {
             "name": "Sunil Prakash S/O Kulwant Rai",
@@ -587,6 +567,18 @@ var contactslist = {
         {
             "name": "Ashish S/O Vijay Kumar",
             "contact": "9996927888"
+        },
+        {
+            "name": "Vikas S/O Subhash",
+            "contact": "9971392912"
+        },
+        {
+            "name": "Shankar S/O Prem Chand",
+            "contact": "9541635400"
+        },
+        {
+            "name": "Shambhu S/O Prem Chand",
+            "contact": "9017046840"
         }
     ]
 }
