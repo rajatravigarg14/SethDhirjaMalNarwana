@@ -579,6 +579,10 @@ var contactslist = {
         {
             "name": "Shambhu S/O Prem Chand",
             "contact": "9017046840"
+        },
+        {
+            "name": "Nitin Garg S/O Radhe Shyam",
+            "contact": "7082454485"
         }
     ]
 }
