@@ -1,10 +1,41 @@
-h1,h2,h3{
+h1, h2, h3,b {
     font-family: 'Kaushan Script', cursive;
-    color:goldenrod
+    color:#b16d0a
 }
 
-.pariwar-heading{
-    background-color: #343a40;
-    padding-top: 1rem;
+.padding-class{
+    padding-top: 6rem;
     padding-bottom: 1rem;
+}
+
+.nav-link{
+    margin-right:10rem !important;
+}
+
+.family-pic{
+    border: 0.3rem goldenrod ridge;
+    max-width: 100%;
+    height: 20rem;
+    margin-top: 3rem;
+    padding: 0;
+}
+
+.family-pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.address-col{
+    border: 2px solid goldenrod;
+    height: 100%;
+    font-weight: bolder;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-style{
+    background-color: #343a40;
+    color:white;
+    padding-bottom: 0.5rem;
+    text-align: center;
 }
