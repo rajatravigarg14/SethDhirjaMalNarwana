@@ -583,6 +583,14 @@ var contactslist = {
         {
             "name": "Nitin Garg S/O Radhe Shyam",
             "contact": "7082454485"
+        },
+        {
+            "name": "Pawan S/O Surender (Nrw)",
+            "contact": "9896264579"
+        },
+        {
+            "name": "Manoj S/O Anand Pal (Nrw)",
+            "contact": "9315848345"
         }
     ]
 }
