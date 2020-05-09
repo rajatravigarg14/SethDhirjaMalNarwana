@@ -314,7 +314,7 @@ var contactslist = {
         },
         {
             "name": "Ranbir Garg S/O Kishan Chand",
-            "contact": "9416560034"
+            "contact": "7835962298"
         },
         {
             "name": "Wazir Singh Garg S/O Kishan Chand",
