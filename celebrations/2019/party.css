@@ -25,6 +25,11 @@
     color: #343a40;
     font-weight: 900;
     font-size: 1.3rem;
+    text-align: center;
+}
+
+.event-hr{
+    border: 1px goldenrod ridge;
 }
 
 .event-pics{
