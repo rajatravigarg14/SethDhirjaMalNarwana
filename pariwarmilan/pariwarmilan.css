@@ -46,3 +46,9 @@ h1, h2, h3,b {
     float: left;
     margin-right: 1rem;
 }
+
+.backgrounddiv{
+    background-image: url(../contactspics/contactsbg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
