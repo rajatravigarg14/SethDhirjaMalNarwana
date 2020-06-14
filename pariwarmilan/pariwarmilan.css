@@ -39,3 +39,10 @@ h1, h2, h3,b {
     padding-bottom: 0.5rem;
     text-align: center;
 }
+
+.passport-pic{
+    border: 2px goldenrod ridge;
+    width: 8rem;
+    float: left;
+    margin-right: 1rem;
+}

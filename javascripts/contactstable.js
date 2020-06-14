@@ -181,10 +181,6 @@ var contactslist = {
             "contact": "9814166166"
         },
         {
-            "name": "Puneet S/O Narender Pal",
-            "contact": "904171800"
-        },
-        {
             "name": "Jitender Aggarwal S/O Narender Pal",
             "contact": "9988446160"
         },
@@ -361,10 +357,6 @@ var contactslist = {
             "contact": "9416254054"
         },
         {
-            "name": "Prem S/O Sita Ram Master",
-            "contact": ""
-        },
-        {
             "name": "Parbodh Kumar Gupta S/O Lal Chand Patwani",
             "contact": "8950891844"
         },
@@ -493,12 +485,8 @@ var contactslist = {
             "contact": "9810166878"
         },
         {
-            "name": "Mahavir Gupta S/O PP Gupta",
+            "name": "Mahavir Gupta S/O Prit Pal Gupta",
             "contact": "9811461121"
-        },
-        {
-            "name": "Pardeep Gupta S/O BP Gupta",
-            "contact": "9818342522"
         },
         {
             "name": "Yudh Raj Gupta",
@@ -591,6 +579,134 @@ var contactslist = {
         {
             "name": "Manoj S/O Anand Pal (Nrw)",
             "contact": "9315848345"
+        },
+        {
+            "name": "Ashok S/O Bhushan Pal",
+            "contact": "9953121607"
+        },
+        {
+            "name": "Mukesh S/O Bhushan Pal",
+            "contact": "9810691748"
+        },
+        {
+            "name": "Sunil S/O Bhushan Pal",
+            "contact": "9811628209"
+        },
+        {
+            "name": "Sumit S/O Ramesh",
+            "contact": "8302270988"
+        },
+        {
+            "name": "Amit S/O Ramesh",
+            "contact": "8278691599"
+        },
+        {
+            "name": "Rinku S/O Vinod",
+            "contact": "9467307880"
+        },
+        {
+            "name": "Ajay S/O Rajinder",
+            "contact": "9802313405"
+        },
+        {
+            "name": "Yogesh Gupta S/O Santosh Kumar Gupta",
+            "contact": "9805874997"
+        },
+        {
+            "name": "Mayank Gupta S/O Yogesh Gupta",
+            "contact": "8351826023"
+        },
+        {
+            "name": "Ajay Gupta S/O Raj Kumar Gupta",
+            "contact": "9717993876"
+        },
+        {
+            "name": "Ashok Gupta S/O Inder Chand Gupta",
+            "contact": "9814198850"
+        },
+        {
+            "name": "Amit Gupta S/O Prem Gupta",
+            "contact": "9818224469"
+        },
+        {
+            "name": "Shivain Gupta S/O Amit Gupta",
+            "contact": "8076185061"
+        },
+        {
+            "name": "Rahul Gupta S/O Prem Gupta",
+            "contact": "9910764510"
+        },
+        {
+            "name": "Prem Gupta S/O Inder Chand Gupta",
+            "contact": "9418068865"
+        },
+        {
+            "name": "Puneet Gupta S/O Vijay Kumar Gupta",
+            "contact": "6306297260"
+        },
+        {
+            "name": "Suneet Gupta S/O Vijay Kumar Gupta",
+            "contact": "9891064299"
+        },
+        {
+            "name": "Vineet Gupta S/O Vijay Kumar Gupta",
+            "contact": "9582446950"
+        },
+        {
+            "name": "Vijay Kumar Gupta S/O Khajanchi Mal Gupta",
+            "contact": "9451141106"
+        },
+        {
+            "name": "Sanjay Aggarwal S/O Trilok Chand Gupta",
+            "contact": "7018330664"
+        },
+        {
+            "name": "Gajender Aggarwal S/O Trilok Chand Gupta",
+            "contact": "7310974337"
+        },
+        {
+            "name": "Trilok Chand Gupta S/O Madan Lal",
+            "contact": "8219679863"
+        },
+        {
+            "name": "Pardeep Gupta S/O Bishan Pal Gupta",
+            "contact": "9818842522"
+        },
+        {
+            "name": "Dharam Pal Aggarwal S/O Madan Lal",
+            "contact": "7827316281"
+        },
+        {
+            "name": "Mahesh Aggarwal S/O Dharam Pal Aggarwal",
+            "contact": "9891621494"
+        },
+        {
+            "name": "Chakshu Aggarwal S/O Mahesh Aggarwal",
+            "contact": "9871053678"
+        },
+        {
+            "name": "Bipin Gupta S/O Satya Pal Gupta",
+            "contact": "9811850912"
+        },
+        {
+            "name": "Pranav Gupta S/O Bipin Gupta",
+            "contact": "9689348957"
+        },
+        {
+            "name": "Rajan Gupta S/O Satya Pal Gupta",
+            "contact": "9667919151"
+        },
+        {
+            "name": "Nitin Gupta S/O Rajan Gupta",
+            "contact": "9715070197"
+        },
+        {
+            "name": "Bal Kishan Gupta S/O Satya Pal Gupta",
+            "contact": "9414297311"
+        },
+        {
+            "name": "Ravinder Gupta S/O Bal Kishan Gupta",
+            "contact": "9716469775"
         }
     ]
 }
