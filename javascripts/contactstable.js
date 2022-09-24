@@ -670,7 +670,7 @@ var contactslist = {
         },
         {
             "name": "Pardeep Gupta S/O Bishan Pal Gupta",
-            "contact": "9818842522"
+            "contact": "9818342522"
         },
         {
             "name": "Dharam Pal Aggarwal S/O Madan Lal",
