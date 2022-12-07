@@ -321,7 +321,7 @@ var contactslist = {
             "contact": "9817897005"
         },
         {
-            "name": "Vinod Gupta (Babli) S/O Grish Pal",
+            "name": "Vinod Garg (Babli) S/O Grish Pal",
             "contact": "7678497429"
         },
         {
@@ -433,8 +433,8 @@ var contactslist = {
             "contact": "9958015637"
         },
         {
-            "name": "Suresh Garg",
-            "contact": "9310727223"
+            "name": "Suresh Garg S/O Late Om Parkash",
+            "contact": "b"
         },
         {
             "name": "Adarsh Kumar Gupta S/O Sat Prakash Aggarwal",
