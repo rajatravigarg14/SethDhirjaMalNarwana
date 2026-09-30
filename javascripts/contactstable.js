@@ -761,21 +761,39 @@ for (var i = 0; i < contactslist.contacts.length; i++) {
 
 
 function searchFunction() {
-    // Declare variables 
-    var input, filter, tr, td, i;
-    input = document.getElementById("searchInput");
-    filter = input.value.toUpperCase();
-    tr = table.getElementsByTagName("tr");
+    var input = document.getElementById("searchInput");
+    var filter = input.value.toUpperCase().trim();
+    var tr = table.getElementsByTagName("tr");
+    var visibleCount = 0;
 
-    // Loop through all table rows, and hide those who don't match the search query
-    for (i = 1; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[1];
-        if (td) {
-            if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+    // Remove existing "No matches" row if present
+    var noMatchRow = document.getElementById("noMatchRow");
+    if (noMatchRow) {
+        noMatchRow.parentNode.removeChild(noMatchRow);
+    }
+
+    for (var i = 1; i < tr.length; i++) {
+        var tdName = tr[i].getElementsByTagName("td")[1];
+        var tdPhone = tr[i].getElementsByTagName("td")[2];
+        if (tdName && tdPhone) {
+            var nameText = tdName.textContent || tdName.innerText;
+            var phoneText = tdPhone.textContent || tdPhone.innerText;
+
+            if (nameText.toUpperCase().indexOf(filter) > -1 || phoneText.toUpperCase().indexOf(filter) > -1) {
                 tr[i].style.display = "";
+                visibleCount++;
             } else {
                 tr[i].style.display = "none";
             }
         }
+    }
+
+    if (visibleCount === 0 && filter !== "") {
+        var emptyRow = table.insertRow(-1);
+        emptyRow.id = "noMatchRow";
+        var cell = emptyRow.insertCell(0);
+        cell.colSpan = 3;
+        cell.className = "text-center text-warning font-weight-bold py-3";
+        cell.innerHTML = "No matching contacts found for '" + input.value + "'";
     }
 }

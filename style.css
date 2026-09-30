@@ -40,9 +40,8 @@ p{
 
 /* main index page css starts here*/
 .welcome-page{
-    background: url("indexpics/welcomebg.jpg");
-    background-position: auto;
-    background-size: 100% 100%;
+    background: url("indexpics/welcomebg.jpg") no-repeat center center;
+    background-size: cover;
     background-attachment: fixed;
     text-align: justify;
     color: white;
@@ -89,7 +88,7 @@ p{
     border: 0.3rem goldenrod ridge;
     border-radius: 50%;
     max-width: 100%;
-    height: 100%;
+    height: auto;
     max-height: 18rem;
     display: block;
     margin-left: auto;
@@ -102,6 +101,8 @@ p{
 
 .index-divider img{
     width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .patram-text{
@@ -110,9 +111,20 @@ p{
 
 .business-col{
     padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .business-col {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .welcome-desc {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
 }
 
 .business-card{
@@ -120,12 +132,12 @@ p{
     background-color: goldenrod;
     border: 2px solid #251c1f;
     border-radius: 10px;
-    height: 13rem;
+    min-height: 13rem;
     width: 100%;
     font-weight: 900;
     text-align: center;
     color: #251c1f;
-    margin:0 10;
+    margin: 0 auto;
 }
 
 .business-card:hover{
