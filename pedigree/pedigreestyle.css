@@ -1,0 +1,99 @@
+/*main body style*/
+body{
+    font-size: 1rem;
+    background: url("pedigreeimage.jpg") no-repeat center center fixed;;
+    background-size: cover;
+}
+
+/*Pedigree section starts here*/
+.pedigree-section{
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+}
+
+/*pedigree chart css*/
+div.panel:first-child {
+    margin-top:0px;
+}
+
+.treeview li a {
+    text-decoration: none;
+    width: 120px;
+    display:block;
+    padding-left: 2px;
+    border: 3px ridge goldenrod;
+}
+
+.treeview li {
+    padding-left: 25px;
+    line-height:1.9rem;
+    font-weight:700;
+    position:relative;
+}
+
+div.treeview ul:first-child:before {
+    display: none;
+}
+
+.treeview, .treeview ul {
+    padding: 0;
+    list-style:none;
+}
+
+.treeview ul {
+    margin-left:7.3rem;
+    position:relative;
+}
+
+/* css to create verical line */
+.treeview ul:before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    border:1.5px ridge goldenrod;
+
+    /* creates a more theme-ready standard for the bootstrap themes */
+    bottom:18px;
+}
+
+/* css to create horizontal line */
+.treeview ul li:before {
+    content:"";
+    display:block;
+    width:25px;
+    border-top:3px ridge goldenrod;
+    margin-top:0px;
+    position:absolute;
+    top:1rem;
+    left:0
+}
+
+.pedigree-bar{
+    color: goldenrod;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+/*pedigree page navigation css*/
+.pedigree-nav .col-md-1{
+    padding: 0px;
+    background-color: white;
+    border: 3px ridge goldenrod;
+}
+
+.pedigree-nav a{
+    border: none;
+    margin: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pedigree-nav{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
