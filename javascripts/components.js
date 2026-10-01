@@ -18,7 +18,7 @@ function ensureHeadAssets() {
         document.head.appendChild(favicon);
     }
 
-    // Dynamically guarantee Google Fonts Preconnect for performance
+    // Dynamically guarantee Google Fonts & CDN Preconnects for performance
     if (!document.querySelector("link[href*='fonts.googleapis.com'][rel='preconnect']")) {
         var pre1 = document.createElement("link");
         pre1.rel = "preconnect";
@@ -30,6 +30,24 @@ function ensureHeadAssets() {
         pre2.href = "https://fonts.gstatic.com";
         pre2.crossOrigin = "anonymous";
         document.head.appendChild(pre2);
+
+        var pre3 = document.createElement("link");
+        pre3.rel = "preconnect";
+        pre3.href = "https://cdnjs.cloudflare.com";
+        document.head.appendChild(pre3);
+
+        var pre4 = document.createElement("link");
+        pre4.rel = "preconnect";
+        pre4.href = "https://stackpath.bootstrapcdn.com";
+        document.head.appendChild(pre4);
+    }
+
+    // Link webmanifest for PWA / Mobile Add-to-Home-Screen
+    if (!document.querySelector("link[rel='manifest']")) {
+        var manifest = document.createElement("link");
+        manifest.rel = "manifest";
+        manifest.href = root + "site.webmanifest";
+        document.head.appendChild(manifest);
     }
 }
 

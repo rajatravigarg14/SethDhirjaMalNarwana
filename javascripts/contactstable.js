@@ -795,6 +795,15 @@ function searchFunction() {
         }
     }
 
+    var countEl = document.getElementById("contactCount");
+    if (countEl) {
+        if (filter === "") {
+            countEl.innerHTML = "Showing all " + visibleCount + " family contacts";
+        } else {
+            countEl.innerHTML = "Found " + visibleCount + " matching contact" + (visibleCount === 1 ? "" : "s");
+        }
+    }
+
     if (visibleCount === 0 && filter !== "") {
         var emptyRow = table.insertRow(-1);
         emptyRow.id = "noMatchRow";
