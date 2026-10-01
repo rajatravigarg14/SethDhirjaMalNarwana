@@ -1,11 +1,36 @@
-/**
- * Shared Header and Footer Component for Seth Dhirja Mal Narwana Website
- * Allows updating logo, title, menu items, and footer links in a single central place.
- */
 document.addEventListener("DOMContentLoaded", function () {
+    ensureHeadAssets();
     renderHeader();
     renderFooter();
 });
+
+function ensureHeadAssets() {
+    var headerEl = document.getElementById("header-component");
+    var root = headerEl ? (headerEl.getAttribute("data-root") || "") : "";
+
+    // Dynamically guarantee Favicon presence across all pages
+    if (!document.querySelector("link[rel*='icon']")) {
+        var favicon = document.createElement("link");
+        favicon.rel = "icon";
+        favicon.type = "image/x-icon";
+        favicon.href = root + "icons/house.png";
+        document.head.appendChild(favicon);
+    }
+
+    // Dynamically guarantee Google Fonts Preconnect for performance
+    if (!document.querySelector("link[href*='fonts.googleapis.com'][rel='preconnect']")) {
+        var pre1 = document.createElement("link");
+        pre1.rel = "preconnect";
+        pre1.href = "https://fonts.googleapis.com";
+        document.head.appendChild(pre1);
+
+        var pre2 = document.createElement("link");
+        pre2.rel = "preconnect";
+        pre2.href = "https://fonts.gstatic.com";
+        pre2.crossOrigin = "anonymous";
+        document.head.appendChild(pre2);
+    }
+}
 
 function renderHeader() {
     var headerEl = document.getElementById("header-component");
