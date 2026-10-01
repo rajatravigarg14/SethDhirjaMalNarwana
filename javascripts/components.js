@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ensureHeadAssets();
     renderHeader();
     renderFooter();
+    renderBackToTop();
 });
 
 function ensureHeadAssets() {
@@ -149,4 +150,36 @@ function renderFooter() {
         '</footer>';
 
     footerEl.innerHTML = footerMarkup;
+}
+
+function renderBackToTop() {
+    var btn = document.createElement("button");
+    btn.id = "backToTopBtn";
+    btn.innerHTML = "&#8593;";
+    btn.title = "Go to top";
+    btn.setAttribute("aria-label", "Back to top");
+    btn.style.cssText = "display: none; position: fixed; bottom: 25px; right: 25px; z-index: 999; width: 45px; height: 45px; font-size: 22px; font-weight: bold; border: 2px solid goldenrod; background-color: #343a40; color: goldenrod; border-radius: 50%; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.5);";
+
+    btn.addEventListener("mouseover", function() {
+        btn.style.backgroundColor = "goldenrod";
+        btn.style.color = "#343a40";
+    });
+    btn.addEventListener("mouseout", function() {
+        btn.style.backgroundColor = "#343a40";
+        btn.style.color = "goldenrod";
+    });
+
+    btn.addEventListener("click", function() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    document.body.appendChild(btn);
+
+    window.addEventListener("scroll", function() {
+        if (window.pageYOffset > 300) {
+            btn.style.display = "block";
+        } else {
+            btn.style.display = "none";
+        }
+    });
 }

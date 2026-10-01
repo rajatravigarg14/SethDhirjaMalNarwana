@@ -753,10 +753,17 @@ for (var i = 0; i < contactslist.contacts.length; i++) {
     var cell2 = row.insertCell(1);
     var cell3 = row.insertCell(2);
 
-    // Add some text to the new cells:
+    // Add text and tap-to-call links to cells:
     cell1.innerHTML = i + 1;
     cell2.innerHTML = contactslist.contacts[i].name;
-    cell3.innerHTML = contactslist.contacts[i].contact;
+
+    var rawPhone = contactslist.contacts[i].contact;
+    var cleanPhone = rawPhone.replace(/[^0-9+]/g, '');
+    if (cleanPhone.length >= 7) {
+        cell3.innerHTML = '<a href="tel:' + cleanPhone + '" style="color: goldenrod; text-decoration: none;" class="font-weight-bold" title="Click or tap to call">' + rawPhone + '</a>';
+    } else {
+        cell3.innerHTML = rawPhone;
+    }
 }
 
 
