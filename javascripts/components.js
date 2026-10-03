@@ -152,6 +152,56 @@ function renderHeader() {
         '</div>';
 
     headerEl.innerHTML = headerMarkup;
+
+    // Robust Native Mobile Menu Toggle (Works seamlessly on all devices & after scrolling)
+    var toggler = headerEl.querySelector(".navbar-toggler");
+    var collapseMenu = headerEl.querySelector("#navbarSupportedContent");
+    if (toggler && collapseMenu) {
+        toggler.addEventListener("click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var isOpen = collapseMenu.classList.contains("show");
+            if (isOpen) {
+                collapseMenu.classList.remove("show");
+                toggler.setAttribute("aria-expanded", "false");
+            } else {
+                collapseMenu.classList.add("show");
+                toggler.setAttribute("aria-expanded", "true");
+            }
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener("click", function (e) {
+            if (!headerEl.contains(e.target) && collapseMenu.classList.contains("show")) {
+                collapseMenu.classList.remove("show");
+                toggler.setAttribute("aria-expanded", "false");
+            }
+        });
+
+        // Close menu when tapping any regular navigation link
+        var navLinks = collapseMenu.querySelectorAll(".nav-link:not(.dropdown-toggle), .dropdown-item, .contact-primary-button");
+        for (var k = 0; k < navLinks.length; k++) {
+            navLinks[k].addEventListener("click", function () {
+                if (window.innerWidth < 992) {
+                    collapseMenu.classList.remove("show");
+                    toggler.setAttribute("aria-expanded", "false");
+                }
+            });
+        }
+
+        // Mobile dropdown click toggle
+        var dropToggle = headerEl.querySelector(".dropdown-toggle");
+        var dropMenu = headerEl.querySelector(".dropdown-menu");
+        if (dropToggle && dropMenu) {
+            dropToggle.addEventListener("click", function (e) {
+                if (window.innerWidth < 992) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    dropMenu.classList.toggle("show");
+                }
+            });
+        }
+    }
 }
 
 function renderFooter() {
