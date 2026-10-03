@@ -9,6 +9,14 @@ function ensureHeadAssets() {
     var headerEl = document.getElementById("header-component");
     var root = headerEl ? (headerEl.getAttribute("data-root") || "") : "";
 
+    // Dynamically guarantee Viewport presence for mobile responsiveness
+    if (!document.querySelector("meta[name='viewport']")) {
+        var viewport = document.createElement("meta");
+        viewport.name = "viewport";
+        viewport.content = "width=device-width, initial-scale=1, shrink-to-fit=no";
+        document.head.appendChild(viewport);
+    }
+
     // Dynamically guarantee Favicon presence across all pages
     if (!document.querySelector("link[rel*='icon']")) {
         var favicon = document.createElement("link");
